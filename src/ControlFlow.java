@@ -20,7 +20,7 @@
 //        // }
 //
 //        // if the condition written under if paranthesis is true then if block will get executed and else block will not.
-//        // if the condition of if is false then only else block will get executed.
+//        // if the condition of if is false, then only else block will get executed.
 //
 //        // Can an if statement exist alone???
 //        // The answer is yes it can.

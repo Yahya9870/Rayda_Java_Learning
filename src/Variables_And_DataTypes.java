@@ -13,6 +13,9 @@ public class Variables_And_DataTypes {
         // Variables naming convention has some rules for all of the data types in Java:
         // 1. It must not start with a number.
 
+
+        //int 1sushil=10;  //error
+
       //  int 1claudia;
 
 
@@ -24,7 +27,17 @@ public class Variables_And_DataTypes {
 //             WRONG-->int 1cat = 10; (Error)  ||        CORRECT-->int cat=10;
 
 //        int 1mark;
-        // 2 . It is case-sensitive. (Java is case sensitive language)
+        // 2. It is case-sensitive. (Java is a case-sensitive language)
+        // glenbhaiya883@gmail.com
+        // GlEnBHaiYa883@GMAil.COm
+
+        // sushil@gmail.com
+        // SuSHiL@gMAil.COm  // email addresses are case insensitive.
+
+        int sushil=10;
+        int Sushil=11;
+        int SUshil=13;  // all three variables are different over here.
+
 
         int divyansh;
         int Divyansh;
@@ -58,15 +71,19 @@ public class Variables_And_DataTypes {
 
 
 
-        //int void; //error
-        int Void; // its fine now but not a good practice.
+//        int void; //error
+          int Void; // it's fine now but not a good practice.
 
 
-        int Static = 10;  // we should using keywords as variable names.
+         int Static = 10;  // we should using keywords as variable names.
 
 //        Wrong--> int void = 100; || int Void =100;
 
         //4. White Spaces are not allowed. (just normal spaces)
+         //int hello  my name      is Glen; // Error
+         int helloMyNameIsGlen;
+
+
 
          String myNameIsClaudia;
 
@@ -75,7 +92,7 @@ public class Variables_And_DataTypes {
         // int hello my name is rayda; // error
         int Hello_My_Name_Is_Rayda;
 
-
+         int abcdefghijklnnopqrst12345678__jhedcbje2bcej2hbche2cb; // no limit
         //Q1) which of the following variable name is/are valid in java:
 
         // a)123count    b) _abc123    c) Int   d) int
@@ -100,7 +117,9 @@ public class Variables_And_DataTypes {
 //        System.out.println(_lin123);
 
 
-        // 1. Byte   1 byte (memory size)   bits==BYTESX8== 1X8=8bits    Generalized formula for the range -2^(NUMBER OF BITS-1)  to (2^(NUMBER OF BITS-1)-1 == -128 to 127
+        // 1. Byte   1 byte (memory size) bits==BYTES X 8== 1X8=8bits. Generalized formula for the range -2^(NUMBER OF BITS-1)  to (2^(NUMBER OF BITS-1)-1 == -128 to 127
+//        byte b=  127;
+//        System.out.println(b);
 //        // Database administrator
 
 
@@ -108,8 +127,8 @@ public class Variables_And_DataTypes {
 
         // ur task is to store age of all people living in NYC
         //  example 9M people living in that city.
-        int age; // 4 bytes // 9X4M= 36M memory size (it will take huge chunk of memory and )
-        byte age1;  // 1 byte // 9X1=9M memory size (75% less memory as compared to int)
+        long age; // 8 bytes // 9X8M= 72M memory size (it will take huge chunk of memory and )
+        byte age1;  // 1 byte // 9X1=9M memory size (90% less memory as compared to int)
 //        byte age = 0;  // optimal solution // software engineering is all about getting the best/optimal solution
 //        System.out.println(age);
 //        long age1=126;  // not optimal taking a lot of unnecessary spaces.
@@ -122,8 +141,9 @@ public class Variables_And_DataTypes {
         //    default value is zero
 
         // 4. float (decimal)  memory size is 4 bytes (its range is not defined).
-           //float f=7.13F;
 
+//            float f=3.86;
+        //System.out.println(f);
            // all the decimal literals in java are double by-default.
 
          // int a =5; (hard coded)
@@ -133,25 +153,27 @@ public class Variables_And_DataTypes {
 //        System.out.println(x);
 
         //     default value is 0.0f
-        // 5. double memory size is 8 bytes     (its range is not fined).
-        double y = 3.16;
+        // 5. double memory size is 8 bytes (its range is not fined).
+          double y = 3.16;
 //        System.out.println(y);
         // default value is 0.0d or 0.0
         // 6. long  8 bytes = 8X8=64 BITS       range -2^63 to (2^63)-1
         long l=1;
         // default value is zero
         // 7. char   2 bytes = 2X8=16 bits      range (2^16)-1  65535
-        char name = 'a';
-        int something=5;
-        System.out.println(something);
-        System.out.println(name);
-        int asciiValue = name;
-        System.out.println("The ASCII value of given alphabet is: "+asciiValue);
+//        char name = 'b';
+//
+//        int something=5;
+//        System.out.println(something);
+//        System.out.println(name);
+//        int asciiValue =name ;
+//        System.out.println("The ASCII value of given alphabet b is: "+asciiValue);
 
         // 8. boolean it can be either true or false
-           boolean something1 = false;
+//           boolean something1 = false;
+//
+//           System.out.println(something1);
 
-           System.out.println(something1);
 
 
         //   size depends upon JVM (Java Virtual Machine)
