@@ -28,7 +28,7 @@ public class ForLoops {
        // 1. THE FOR LOOP
         // SYNTAX
         /*
-        for(initialisation;condition checker;increment/decrement){
+        for(declaration and initialisation;condition checker;increment/decrement){
 
            write your code here
 
@@ -38,10 +38,23 @@ public class ForLoops {
         // Actual for loop implementation.
         //Write a java program to print hello world 100 times.
 
-        for(int i=1;i<=100;i++){
+        for(int i=1;i<=5;i++){
 
             System.out.println("Hello, World! "+i);
+
+
         }
+
+        // Iteration cum backend mechanism of loop.
+        //1. i=1, true
+        //2. i=2, true
+        //3. i=3, true
+        //4. i=4, true
+        //5. i=5, true
+        //6. i=6, false finally loops terminates with exit code 0.
+
+        // write a java program to print all even positive integers till 100.
+
 
     }
 }
