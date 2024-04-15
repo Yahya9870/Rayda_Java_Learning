@@ -38,9 +38,12 @@ public class ForLoops {
         // Actual for loop implementation.
         //Write a java program to print hello world 100 times.
 
-        for(int i=1;i<=5;i++){
-
-            System.out.println("Hello, World! "+i);
+        for(int i=1;i<=500;i++){
+             if(i==4){
+                 System.out.println("Break encountered exiting the loop"+" for i = "+i);
+                 break; // it will terminate the loop instantly
+             }
+            System.out.println("Hello, World! "+" for i = "+i);
 
 
         }
