@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// +1 2269610264
+
 public class CheckPrimeNumber {
     public static void main(String[] args) {
         //Write a java program to check whether a given number is prime or not.
