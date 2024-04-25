@@ -4,5 +4,7 @@ public class Palindrome {
         // 1234 is not palindrome bcoz 1234 != 4321
         // 1111 is plaindrome bcpz 1111==1111
         // 1225221 palindrome number
+
+
     }
 }

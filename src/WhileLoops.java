@@ -19,9 +19,19 @@ public class WhileLoops {
 
         // Write a java program to print hello world 10 times.
 
-        int i=1;
-
-        while(i<=10){
+        int i = 1000;
+        // Iterations
+        while (i <= 10) {   // 1. i=1, true loop will run
+            // 2. i=2, true loop will run
+            // 3. i=3, true loop will run
+            // 4. i=4, true loop will run
+            // 3. i=5, true loop will run
+            // 6. i=6, true loop will run
+            // 7. i=7, true loop will run
+            // 8. i=8, true loop will run
+            // 9. i=9, true loop will run
+            // 10.i=10, true loop will run
+            // 11/ i=11, false, loop will terminate.
 
             System.out.println("Hello, World!!!");
             i++;

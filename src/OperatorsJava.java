@@ -44,8 +44,8 @@ public class OperatorsJava {
 
 
         //4. Logical Operators (AND &&, OR ||, NOT), they also return boolean(true or false) output.
-          // AND means both of the conditions should be true only then it will return true otherwise false.
-          // OR means if any of the condition is true then it will return true.
+          // AND (&&) means both of the conditions must be true only then it will return true otherwise false.
+          // OR (||) means if any of the conditions are true, then it will return true.
 
           // block space between two curly braces
 
@@ -83,13 +83,18 @@ public class OperatorsJava {
         // --z or z-- means decreasing the value of z by 1
         // pre incremental/decremental operator ++z: here increment or decrement takes place first then value gets printed.
         // post-incremental/decremental operator z++: here the original value gets printed first after that increment or decrement takes place accordingly.
-        int z=35;
-        System.out.println(z++); // 36
-        System.out.println(--z); // 33
-        System.out.println(z);   // 34
-        System.out.println(++z); // 35
-        System.out.println(z--); // 36
-        System.out.println(z);   // 35  // 6 out of 6 A+
+        // z++ or ++z or z=z+1 or z+=1 (value of z getting incremented by 1)
+        int i=1;
+
+        System.out.println(--i);
+
+//        int z=35;
+//        System.out.println(z++); // 36
+//        System.out.println(--z); // 33
+//        System.out.println(z);   // 34
+//        System.out.println(++z); // 35
+//        System.out.println(z--); // 36
+//        System.out.println(z);   // 35  // 6 out of 6 A+
 
              
              

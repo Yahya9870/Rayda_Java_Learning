@@ -28,12 +28,12 @@ public class Operators {
         {
 
 
-            int a=19;
-            int b=20;
-            int c=a+b;// block and scope in coding
-
-
-            System.out.println(c);
+//            int a=55;
+//            int b=5;
+//            int c=a%b;// block and scope in coding
+//
+//
+//            System.out.println(c);
 
 
 
@@ -58,7 +58,7 @@ public class Operators {
         // '' single quotes
         // \ back-slash
 
-        System.out.println("hello my name is Claudia\n and I am from\tAustria");
+        //System.out.println("hello my name is Claudia\n and I am from\tAustria");
 
         
 
@@ -144,17 +144,17 @@ public class Operators {
         //3.Comparison/Relational: (==,less than equal to <=,greater than equal to >= ,greater than >,less than <, not equals !=) //
         //Always return boolean output i.e. your true/false
 //         int p1=500;
-//         int q1=500;
+//         int q1=5000;
 ////
-//        System.out.println(p1==q1);
+//        System.out.println(p1!=q1);
 
 
         //System.out.println(a less than equal to b);
         //4.Logical Operators (&& and , || or)
         //Always return boolean output i.e. your true/false
-        int p = 1, q = 2;
-        System.out.println(p == q || p < q);
-        System.out.println(p == q && p <= q);
+       // int p = 1, q = 2;
+       // System.out.println(p == q || p < q);
+       // System.out.println(p == q && p <= q);
 
 
         // 5.Increment and Decrement Operators. ++ and --
@@ -162,11 +162,11 @@ public class Operators {
 //        int x1=100;
 //        System.out.println(++x1);
         int r=10;
-        System.out.println(r++); //20 // post incremental operator.--> first value get printed then increment takes place.
-        System.out.println(r++);  //20
-        System.out.println(--r); //20
-        System.out.println(r--); //0
-        System.out.println(r);  //10
+//        System.out.println(r++); //20 // post incremental operator.--> first value get printed then increment takes place.
+//        System.out.println(r++);  //20
+//        System.out.println(--r); //20
+//        System.out.println(r--); //0
+//        System.out.println(r);  //10
 
 
 
@@ -246,8 +246,8 @@ public class Operators {
         // in programming we follow PEDMAS paranthesis () then Exponential DMAS.
        // System.out.println((10.0+11.0)/11.0);
 
-        System.out.println("My name is Claudia");
-        System.out.println("I am from Austria");
+//        System.out.println("My name is Claudia");
+//        System.out.println("I am from Austria");
 
         /*** Operator Precedence
 "Order of operations" when mixing diﬀerent kinds of operators
