@@ -144,17 +144,21 @@ public class Operators {
         //3.Comparison/Relational: (==,less than equal to <=,greater than equal to >= ,greater than >,less than <, not equals !=) //
         //Always return boolean output i.e. your true/false
 //         int p1=500;
-//         int q1=5000;
-////
-//        System.out.println(p1!=q1);
+//         int q1=500;
+//
+//        System.out.println(p1>=q1);
 
 
         //System.out.println(a less than equal to b);
         //4.Logical Operators (&& and , || or)
         //Always return boolean output i.e. your true/false
-       // int p = 1, q = 2;
-       // System.out.println(p == q || p < q);
-       // System.out.println(p == q && p <= q);
+//        int p = 1, q = 2;
+//        System.out.println(p == q || p < q);
+//        System.out.println(p == q && p <= q);
+
+//        boolean b=false;
+//
+//        System.out.println(!b);
 
 
         // 5.Increment and Decrement Operators. ++ and --
@@ -162,11 +166,11 @@ public class Operators {
 //        int x1=100;
 //        System.out.println(++x1);
         int r=10;
-//        System.out.println(r++); //20 // post incremental operator.--> first value get printed then increment takes place.
-//        System.out.println(r++);  //20
-//        System.out.println(--r); //20
-//        System.out.println(r--); //0
-//        System.out.println(r);  //10
+        System.out.println(r++); //10 // post incremental operator.--> first value get printed then increment takes place.
+        System.out.println(r++);  //11
+        System.out.println(--r); //11
+        System.out.println(r--); //11
+        System.out.println(r);  //10 // 2 out of 5 marks
 
 
 

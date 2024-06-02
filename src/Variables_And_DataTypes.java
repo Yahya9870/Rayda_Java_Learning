@@ -13,7 +13,9 @@ public class Variables_And_DataTypes {
         // Variables naming convention has some rules for all of the data types in Java:
         // 1. It must not start with a number.
 
-        //  int 1huma=10;
+
+
+//          int 1huma=10;
 
         //int 1sushil=10;  //error
 
@@ -32,7 +34,7 @@ public class Variables_And_DataTypes {
 
         // glenbhaiya883@gmail.com
         // GlEnBHaiYa883@GMAil.COm
-
+        float f= 3.2F; // implicit type casting/conversion
         // sushil@gmail.com
         // SuSHiL@gMAil.COm  // email addresses are case insensitive.
 
@@ -117,8 +119,11 @@ public class Variables_And_DataTypes {
 
 
         // 1. Byte 1 byte (memory size) bits==BYTES X 8== 1X8=8bits. Generalized formula for the range -2^(NUMBER OF BITS-1)  to (2^(NUMBER OF BITS-1)-1 == -128 to 127
-//        byte b=10;
-//        System.out.println(b);
+        byte b; // declaration
+        b=127; // initialisation
+
+        // byte b=10;
+       // System.out.println(b);
 //        // Database administrator
 
 
@@ -139,7 +144,8 @@ public class Variables_And_DataTypes {
 
         // 4. float (decimal)  memory size is 4 bytes (its range is not defined).
 
-//        float f = 3.86f;
+       // float f1 = 3.86;
+
 //        System.out.println(f);
         // all the decimal literals in java are double by-default.
 
@@ -158,8 +164,8 @@ public class Variables_And_DataTypes {
         long l = 1;
         // default value is zero
         // 7. char   2 bytes = 2X8=16 bits      range (2^16)-1  65535
-//        char name = '#';
-//        System.out.println(name);
+        char name = '@';
+        //System.out.println(name);
 
 //        int something=5;
 //        System.out.println(something);

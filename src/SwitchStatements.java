@@ -44,6 +44,6 @@ public class SwitchStatements {
 //            case 4 -> System.out.println("User enterd 4");
 //            default -> System.out.println("User has entered: " + num);
 //        }
-
+        
     }
 }

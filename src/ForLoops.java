@@ -24,7 +24,7 @@ public class ForLoops {
         // }
 
         // DIFFERENT TYPES OF LOOPS IN JAVA:
-
+        // int i=0; declaration and initialisation both
        // 1. THE FOR LOOP
         // SYNTAX
         /*
@@ -38,23 +38,27 @@ public class ForLoops {
         // Actual for loop implementation.
         //Write a java program to print hello world 100 times.
 
-        for(int i=1;i<=500;i++){
-             if(i==4){
-                 System.out.println("Break encountered exiting the loop"+" for i = "+i);
-                 break; // it will terminate the loop instantly
-             }
-            System.out.println("Hello, World! "+" for i = "+i);
+        for(int i=0;i<10;i++){
+            // Iterations of for loop.
+            //1. i=0; true
+            //2. i=1; true
+            //3. i=2; true
+            //4. i=3; true
+            //5. i=4; true
+            //6. i=5; true
+            //7. i=6; true
+            //8. i=7; true
+            //9. i=8; true
+            //10.i=9; true
+            //11. i=10; false (loop will get terminated)
+
+            System.out.println("Hello world!");
+
+
 
 
         }
 
-        // Iteration cum backend mechanism of loop.
-        //1. i=1, true
-        //2. i=2, true
-        //3. i=3, true
-        //4. i=4, true
-        //5. i=5, true
-        //6. i=6, false finally loops terminates with exit code 0.
 
         // write a java program to print all even positive integers till 100.
 

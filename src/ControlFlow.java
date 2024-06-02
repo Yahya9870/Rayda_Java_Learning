@@ -41,12 +41,12 @@
 ////
 ////            else {
 ////
-////            if (age >= 18) {
-////                System.out.println("You are eligible to vote.");
-////            } else {
-////
-////                System.out.println("You are not eligible to vote.");
-////            }
+//            if (age >= 18) {
+//                System.out.println("You are eligible to vote.");
+//            } else {
+//
+//                System.out.println("You are not eligible to vote.");
+//            }
 //
 //
 //        } }
@@ -170,7 +170,7 @@
 ////            case 7 -> System.out.println("Sunday");
 ////            default -> System.out.println("Invalid day");
 //        // if else if ladder
-//        // we have marks of a student of 100 and we have to return his grades.
+//        // we have marks of a student out of 100 and we have to return his grades.
 //        // like A for 90 or above, B for 80+ C for 70+ D for 60+ E for 50+ for F for fail
 //
 //        int marks = 88;

@@ -4,8 +4,8 @@ public class OperatorsJava {
 
         //1. Arithmetic Operator (+, -, *, /, %, ++, --)
 
-//        int a = 65;
-//        int b = 5;
+//        int a = 110;
+//        int b = 10;
 //
 //        int ans = a%b;
 //        System.out.println(ans);
@@ -26,6 +26,9 @@ public class OperatorsJava {
         d/=10; // d=d/10;
         d+=7; // d=d+7;
         d*=3; // d=d*3;
+        int h=10;
+        h+=5; // h=h+5;
+//        System.out.println(h);
 
 //        int a=10;
 //        // there are 2 kinds of incremental and decremental operators.
@@ -37,10 +40,10 @@ public class OperatorsJava {
         //3. Relational/Comparison Operators: (==, <=,>=, <,>,!=)
         // they always return boolean type mins true or false;
 
-//        int p=20;
+//        int p=200;
 //        int q=200;
 //
-//        System.out.println(p!=q);
+//        System.out.println(p>q);
 
 
         //4. Logical Operators (AND &&, OR ||, NOT), they also return boolean(true or false) output.
@@ -62,15 +65,15 @@ public class OperatorsJava {
 //        int j=300;
 //
 //        System.out.println(i);
-//        int x=100;
-//        int y=200;
+        int x=100;
+        int y=200;
 //
 //        Logical AND
 //        System.out.println(x==y && x<y);
-        // Logical OR
+//        // Logical OR
 //        System.out.println(x == y || x < y);
-        // Logical NOT
-//        boolean bool=true;
+//        // Logical NOT
+//        boolean bool=false;
 //        boolean bool1=!bool;
 //        System.out.println(bool1);
 
@@ -81,20 +84,25 @@ public class OperatorsJava {
 
         // ++z or z++ means increasing the value of z by 1
         // --z or z-- means decreasing the value of z by 1
-        // pre incremental/decremental operator ++z: here increment or decrement takes place first then value gets printed.
-        // post-incremental/decremental operator z++: here the original value gets printed first after that increment or decrement takes place accordingly.
+        // pre incremental/decremental operator ++z/--z: here increment or decrement takes place first then value gets printed.
+        // post-incremental/decremental operator z++/z--: here the original value gets printed first after that increment or decrement takes place accordingly.
         // z++ or ++z or z=z+1 or z+=1 (value of z getting incremented by 1)
-        int i=1;
+//        int i=1;
+//
+//        System.out.println(i--);
+//        System.out.println(i);
 
-        System.out.println(--i);
+//        System.out.println(i++);
+//        System.out.println(++i);
 
-//        int z=35;
-//        System.out.println(z++); // 36
-//        System.out.println(--z); // 33
-//        System.out.println(z);   // 34
-//        System.out.println(++z); // 35
-//        System.out.println(z--); // 36
-//        System.out.println(z);   // 35  // 6 out of 6 A+
+
+        int z=35;
+        System.out.println(z++); // 35
+        System.out.println(--z); // 35
+        System.out.println(z);   // 35
+        System.out.println(++z); // 36
+        System.out.println(z--); // 36
+        System.out.println(z);   // 35
 
              
              
