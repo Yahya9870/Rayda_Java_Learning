@@ -37,8 +37,8 @@ public class ForLoops {
 
         // Actual for loop implementation.
         //Write a java program to print hello world 100 times.
-
-        for(int i=0;i<10;i++){
+        // 0 1 2 3 4 5 6 7 8 9
+        for(int i=1;i<=100;i++){
             // Iterations of for loop.
             //1. i=0; true
             //2. i=1; true
@@ -52,7 +52,7 @@ public class ForLoops {
             //10.i=9; true
             //11. i=10; false (loop will get terminated)
 
-            System.out.println("Hello world!");
+            System.out.println("Hello world! "+i);
 
 
 

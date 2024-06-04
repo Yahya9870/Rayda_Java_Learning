@@ -26,14 +26,14 @@ public class Do_While_Loops {
 
         // Actual Implementation.
 
-        int i=10000;
+        int i=1000;
 
         do{
 
             System.out.println("Do-While loop is running");
             i++;
 
-        } while (i<=10);
+        } while (i<10);
 
     }
 }
