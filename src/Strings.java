@@ -9,9 +9,22 @@ public class Strings {
 
         //String name=new String("Rayda");
 
-        // But due to its extensive in Java, Java has provided a special acces to string in which we can use it like a primitive datatype
+//        String myName; // declaration of string just int a;
+//        myName="Sushil"; // initialisation of string
+//
+//        System.out.println("Sushil");
+//
+//        String str = new String("My Name is Sushil");
+//
+//        System.out.println(str);
+
+        // We can do both in one line also like String myName= "Sushil";
+
+        // But due to its extensive in Java, Java has provided a special access to string in which we can use it like a primitive datatype
 
         // String name="Rayda";  // it occupies space in string pool.
+
+
 
         //  System.out.println(name);
 
@@ -26,7 +39,7 @@ public class Strings {
         float f = 2.5f;
         char ch = 'R';
 
-        //  System.out.println(); // this also changes the line
+        // System.out.println(); // this also changes the line
         // System.out.printf("The value of a is %d, b is %f, c is %c and str is %s",a,f,ch,str);
         // %d is for integers, %f for float, %c for character and %s for strings, and collectively they are know as format specifiers.
 
@@ -34,7 +47,7 @@ public class Strings {
 
         // How to take user input as a String.
 
-        Scanner input = new Scanner(System.in);
+          Scanner input = new Scanner(System.in);
 
 //        System.out.println("Pls enter the String you want: ");
 //
