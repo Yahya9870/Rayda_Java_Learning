@@ -34,7 +34,7 @@ public class Methods_Java {
 //1. non-returning and non parametrized.
 //2. non-returning and parametrized.
 //3. returning and parametrized.
-//4. non-returning and parametrized.
+//4. returning and non-parametrized.
 
 // What is a method in Java?
 // In other languages it is termed as functions however in java they are known as methods.
