@@ -5,6 +5,8 @@ public class Random_Number_Generation {
     public static void main(String[] args) {
         Random rd = new Random();
 
+
+
         // write a java program that generates a random number with range 1 to 6
 
         //   int randomNumber= rd.nextInt(5)+1;  1 to 5
