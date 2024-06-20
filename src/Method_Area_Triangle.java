@@ -26,3 +26,5 @@ public class Method_Area_Triangle {
 
     }
 }
+
+
